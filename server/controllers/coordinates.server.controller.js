@@ -42,7 +42,7 @@ module.exports = function(req, res, next) {
         })
         .catch(function(err) {
           return res.status(404).send({
-            message: "Error getting address"
+            message: "Error retrieving address."
           });
         });
 
